@@ -12,8 +12,6 @@ Five types of objects model :
 1. Namespace : In computing, a namespace is a set of signs (names) that are used to identify and refer to objects of various kinds.
 namespace is like a package name , logical partitioning in kubernatives cluster is said to be namespace.
 
-In kubernetes cluster we are parallelly dividing one space.
-
 In Kubernetes, namespaces provides a mechanism for isolating groups of resources within a single cluster. Names of resources need to be unique within a namespace, but not across namespaces. Namespace-based scoping is applicable only for namespaced objects (e.g. Deployments, Services, etc) and not for cluster-wide objects (e.g. StorageClass, Nodes, PersistentVolumes, etc).
 
 2. POD – Pod is a collection of one or more containers that share storage and network resources. Pods contain the definition of how the containers should be run in Minikube. Minikube uses these definitions to maintain the necessary resources. For example, you can define you need two pods.
